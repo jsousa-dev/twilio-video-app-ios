@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Oqf-hp-6pe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Oqf-hp-6pe">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -48,7 +48,7 @@
                                     <action selector="signInTap:" destination="yY1-e5-MwM" eventType="touchUpInside" id="CVn-eJ-JcZ"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-login" translatesAutoresizingMaskIntoConstraints="NO" id="H83-Ih-XT9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-loginr" translatesAutoresizingMaskIntoConstraints="NO" id="H83-Ih-XT9">
                                 <rect key="frame" x="170" y="97" width="74" height="57"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAG-hP-3rc" userLabel="Passcode line">
@@ -107,7 +107,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-login" translatesAutoresizingMaskIntoConstraints="NO" id="hJy-Fo-dHs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-loginr" translatesAutoresizingMaskIntoConstraints="NO" id="hJy-Fo-dHs">
                                 <rect key="frame" x="170" y="172" width="74" height="57"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fwk-pW-rSy" customClass="GIDSignInButton">
@@ -161,7 +161,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-login" translatesAutoresizingMaskIntoConstraints="NO" id="4V8-c7-gI3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-loginr" translatesAutoresizingMaskIntoConstraints="NO" id="4V8-c7-gI3">
                                 <rect key="frame" x="170" y="53" width="74" height="57"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Kra-TT-7Ah">
@@ -278,19 +278,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-splash" translatesAutoresizingMaskIntoConstraints="NO" id="pOc-QE-OpY">
-                                <rect key="frame" x="140" y="397" width="134" height="102"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twilio-name-white" translatesAutoresizingMaskIntoConstraints="NO" id="FFg-NV-G8W">
-                                <rect key="frame" x="123" y="795" width="168" height="47"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video-logo-loginr" translatesAutoresizingMaskIntoConstraints="NO" id="pOc-QE-OpY">
+                                <rect key="frame" x="170" y="419.5" width="74" height="57"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.80000000000000004" green="0.16862745100000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pOc-QE-OpY" firstAttribute="centerX" secondItem="MZl-4h-Jwx" secondAttribute="centerX" id="YAa-x5-9Qo"/>
                             <constraint firstItem="pOc-QE-OpY" firstAttribute="centerY" secondItem="Wzg-Au-nd3" secondAttribute="centerY" id="eXq-Fk-ryE"/>
-                            <constraint firstItem="FFg-NV-G8W" firstAttribute="centerX" secondItem="MZl-4h-Jwx" secondAttribute="centerX" id="gtA-0C-Rtj"/>
-                            <constraint firstItem="MZl-4h-Jwx" firstAttribute="bottom" secondItem="FFg-NV-G8W" secondAttribute="bottom" constant="20" id="jYi-M2-xkO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MZl-4h-Jwx"/>
                     </view>
@@ -303,7 +298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9pG-mS-k4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1660" y="36"/>
+            <point key="canvasLocation" x="-1660.8695652173915" y="35.491071428571423"/>
         </scene>
         <!--Lobby View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -887,10 +882,8 @@
         <image name="settings-white" width="24" height="24"/>
         <image name="stats-disabled" width="60" height="60"/>
         <image name="switch-camera" width="24" height="24"/>
-        <image name="twilio-name-white" width="168" height="47"/>
         <image name="unmute-audio" width="15.333333015441895" height="16"/>
         <image name="unmute-video" width="20" height="20"/>
-        <image name="video-logo-login" width="74" height="57"/>
-        <image name="video-logo-splash" width="134" height="102"/>
+        <image name="video-logo-loginr" width="74" height="57"/>
     </resources>
 </document>

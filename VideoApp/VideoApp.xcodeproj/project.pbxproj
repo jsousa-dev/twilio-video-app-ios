@@ -1695,12 +1695,12 @@
 				ORGANIZATIONNAME = "Twilio, Inc.";
 				TargetAttributes = {
 					4B0012221FBA52C4004A587E = {
-						DevelopmentTeam = SX5J6BN2KX;
+						DevelopmentTeam = G2CLXNGC82;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					4B00125F1FBA52E5004A587E = {
-						DevelopmentTeam = SX5J6BN2KX;
+						DevelopmentTeam = G2CLXNGC82;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
@@ -2762,7 +2762,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 61;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = G2CLXNGC82;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -2776,7 +2776,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-internal";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsousa.video-app-internal";
 				PRODUCT_MODULE_NAME = VideoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2798,7 +2798,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 61;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = G2CLXNGC82;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = VideoApp/Info.plist;
@@ -2809,7 +2809,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-internal";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsousa.video-app-internal";
 				PRODUCT_MODULE_NAME = VideoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2830,7 +2830,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 61;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = G2CLXNGC82;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -2844,7 +2844,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-community";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsousa.video-app-community";
 				PRODUCT_MODULE_NAME = VideoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2866,7 +2866,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 61;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = SX5J6BN2KX;
+				DEVELOPMENT_TEAM = G2CLXNGC82;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				INFOPLIST_FILE = VideoApp/Info.plist;
@@ -2877,7 +2877,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.twilio.video-app-community";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jsousa.video-app-community";
 				PRODUCT_MODULE_NAME = VideoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

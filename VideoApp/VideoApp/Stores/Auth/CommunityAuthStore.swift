@@ -47,6 +47,7 @@ class CommunityAuthStore: AuthStoreWriting {
 
     func signIn(userIdentity: String, passcode: String, completion: @escaping (AuthError?) -> Void) {
         configureAPI(passcode: passcode)
+        // TODO: JSV Here we don't need passcode to request Token
         let request = CommunityCreateTwilioAccessTokenRequest(passcode: passcode, userIdentity: userIdentity, roomName: "")
         
         api.request(request) { [weak self] result in
@@ -80,6 +81,7 @@ class CommunityAuthStore: AuthStoreWriting {
     }
     
     private func configureAPI(passcode: String) {
+        // TODO: JSV Here we set our host without passcode
         let host = "video-app-\(PasscodeComponents(string: passcode).appID)-dev.twil.io"
         api.config = APIConfig(host: host)
     }

@@ -17,6 +17,7 @@
 import Foundation
 
 struct CommunityCreateTwilioAccessTokenRequest: APIRequest {
+    // TODO: JSV We don't need passcode in our Token Request
     struct Parameters: Encodable {
         let passcode: String
         let userIdentity: String
